@@ -31,7 +31,7 @@ async def forward_to_admin(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # 2. Responderle al usuario
     await update.message.reply_text(
-        f"👋 ¡Hola {user.first_name}! Gracias por tu mensaje, te responderemos pronto. ✅"
+        f"👋 ¡Hola {user.first_name}! Gracias por tu mensaje, https://t.me/developerNex te enviara un mensaje pronto, solo escibre tu username abajo,gracias. ✅"
     )
 
 # Función principal
