@@ -26,14 +26,12 @@ async def forward_to_admin(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 1. Reenviar mensaje al admin
     await context.bot.send_message(
         chat_id=ADMIN_ID,
-        text=f"📩 Mensaje de {user.username or user.first_name}:
-
-{update.message.text}"
+        text=f"📩 Mensaje de {user.username or user.first_name}:\n\n{update.message.text}"
     )
 
     # 2. Responderle al usuario
     await update.message.reply_text(
-        f"👋 ¡Hola {user.first_name}! Gracias por tu mensaje, https://t.me/developerNex te enviara un mensaje pronto. ✅"
+        f"👋 ¡Hola {user.first_name}! Gracias por tu mensaje, te responderemos pronto. ✅"
     )
 
 # Función principal
