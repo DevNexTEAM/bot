@@ -10,7 +10,7 @@ logging.basicConfig(
 )
 
 # Tu token de bot
-TOKEN = '7341867073:AAGqvxIm4QbvSt5p-yLoMjMCmSU179kErcg'  # ← Asegúrate de poner tu token real aquí
+TOKEN = '7341867073:AAFXGCGVlRnek8cirp1137Xbdh2IXvhVDfQ'  # ← Asegúrate de poner tu token real aquí
 
 # Funciones que maneja los comandos y mensajes
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
